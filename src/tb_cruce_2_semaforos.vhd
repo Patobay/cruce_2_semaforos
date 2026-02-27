@@ -1,6 +1,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
+use std.env.all;
 
 -- ============================================================
 -- Testbench para el cruce de dos semáforos coordinados
@@ -87,7 +88,7 @@ begin
         --------------------------------------------------------
         -- Fin de la simulación
         --------------------------------------------------------
-        wait;
+        finish;
     end process;
 
 end architecture;

@@ -1,0 +1,4 @@
+v 4
+file . "temporizador.vhd" "dd6e159d99683bf561ee15efd3be5d5a27acba6b" "20260226135846.201":
+  entity temporizador at 1( 0) + 0 on 11;
+  architecture behavioral of temporizador at 19( 429) + 0 on 12;
